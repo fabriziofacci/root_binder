@@ -1,7 +1,10 @@
-name: root_env
+name: root_cpp_env
 channels:
 - conda-forge
 dependancies:
-- root
+- root=6.24.06
+- xeus-cling
 - notebook
 - ipykernel
+- cmake
+- clangdev
