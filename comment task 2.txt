@@ -1,0 +1,11 @@
+The graph shows the evolution of the fitted mean and its uncertainty as the number of events increases—from very few (N ≈ 1) to a very large sample (N ≈ 10⁶). Here’s a detailed commentary:
+
+Trend in the Mean: The y-axis represents the measured mean from each fit. Because the random numbers are generated from a Gaussian with a true mean of –1, you should see the fitted mean converging toward –1 as N increases. At low statistics, the mean might fluctuate more significantly; however, as the sample size increases, those fluctuations diminish, and the fit settles near –1, confirming the expected behavior based on the central limit theorem.
+
+Uncertainty (Error Bars): The error bars attached to each data point represent the uncertainty (or standard error) on the measured mean derived from the Gaussian fit. They decrease as the number of events increases, which is expected because the statistical uncertainty in the mean is proportional to 1/√N. In simpler terms, more data means greater precision, and that is clearly visible in the graph where the error bars shrink for higher N.
+
+Logarithmic X-axis: The x-axis is plotted on a logarithmic scale, which is a very effective way to present data spanning several orders of magnitude (from 1 to 10⁶). This scaling shows how dramatic the improvement is: even when only a few events are available, the uncertainty is large, but as soon as you add another order of magnitude of events, there is a significant reduction in the error.
+
+Statistical Consistency: The overall pattern validates the statistical principle that with more data, your estimates become more reliable. The graph produced by your Task2 code illustrates well how, despite the inherent randomness in data generation, the mean stabilizes and its uncertainty diminishes—exactly as predicted by statistical theory.
+
+In summary, the graph effectively demonstrates the role of sample size in reducing the uncertainty in the measurement of the mean. The convergence of the mean towards –1 along with the shrinking error bars confirms that as more events are collected, the precision of the fitted parameter increases.
