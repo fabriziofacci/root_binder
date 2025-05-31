@@ -2,6 +2,7 @@ name: root_env
 channels:
 - conda-forge
 dependencies:
+- mamba
 - root
 - jupyterlab
 - root-base
